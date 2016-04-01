@@ -1,0 +1,6 @@
+services:
+    yandex.direct_parser:
+        class: Constse\YandexBundle\Utils\YandexDirectParser
+        arguments: ["@service_container"]
+    yandex.remote_request:
+        class: ConstSe\YandexBundle\Utils\RemoteRequest
